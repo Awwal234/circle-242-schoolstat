@@ -71,13 +71,15 @@ body{
 }
 header{
 	width:100%;
+	height:fit-content;
 	position:fixed;
 	top:0;
 	margin-left:-20px;
 	z-index:10;
 	background-color:#2C3333;
-	padding:15px;
+	padding:7px;
 	filter:drop-shadow(0 2px 2px 0 #2C3639);
+	justify-content:stretch;
 }
 .searchy{
 	width:40%;
@@ -106,4 +108,19 @@ header{
 		width:40%;
 		opacity:1;
 	}
+}
+.icony{
+	color:#fff;
+	display:inline-flex;
+	list-style-type:none;
+}
+.icony>li{
+	cursor:pointer;
+}
+.icony>li:hover{
+	color:red;
+	transition:1s ease-in-out;
+}
+.icon2{
+	margin-left:30px;
 }
