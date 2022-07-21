@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background:#000;
+  /*background:#000;*/
 }
 .side-nav{
 	width:fit-content;
@@ -65,6 +65,8 @@ body{
 }
 
 /*for main*/
+
+
 .main-cont{
 	color:#fff;
 	margin-left:150px;
@@ -123,4 +125,14 @@ header{
 }
 .icon2{
 	margin-left:30px;
+}
+
+/* the content area */
+.main {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+  left:150px;
+  color:#000;
+  top: 59px;
 }
