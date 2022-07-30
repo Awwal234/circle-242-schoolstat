@@ -8,9 +8,10 @@ function startApp() {
   
     const header = document.querySelector('h2');
     if(header) {
-      header.textContent = 'make some magic here!!';
+      header.textContent = 'chima some magic here!!';
     }
   };
+  console.log("chima");
   
   // ======= DO NOT EDIT ============== //
   export default startApp;
