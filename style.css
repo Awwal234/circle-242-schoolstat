@@ -9,9 +9,9 @@ header{
 	align-items:center;
 }
 body{
-  /*background:#000;*/
   overflow:scroll;
 }
+/* for the side bar */
 .nav-toggle {
     height: 60px;
     font-size: 3rem;
@@ -20,6 +20,10 @@ body{
     transition: all 0.3s linear;
     border:none;
     padding-right:10px;
+}
+.nav-toggle:hover{
+  transform: rotate(90deg);
+  color:#d4cece;
 }
 .leftside-nav{
 	width:100%;
@@ -54,6 +58,7 @@ body{
   margin: 0;
   display: flex;
 }
+
 .menu-list>li{
 	list-style: none;
 	width:100%;
@@ -179,10 +184,11 @@ td{
     justify-content:space-between;
   }
   .menu-list{
-/*     overflow:hidden;
-    height:0; */
     display:flex;
     flex-direction:column;
+    overflow:hidden;
+    height:0;
+    transition: all 0.3s linear;
   }
   .leftside-nav{
     display:inline-block;
@@ -196,4 +202,11 @@ td{
     display:flex;
     flex-direction: column;
   }
+}
+
+
+.show-link{
+  transition: all 0.3s linear;
+  height:auto;
+  
 }

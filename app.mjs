@@ -10,8 +10,8 @@ function startApp() {
     if(header) {
       header.textContent = 'chima some magic here!!';
     }
-  };
-  console.log("chima");
+  }
+  console.log("chima oooo")
   
   // ======= DO NOT EDIT ============== //
   export default startApp;
