@@ -1,3 +1,16 @@
+::-webkit-scrollbar {
+	width: 3px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: green;
+}
+
+
+
+
 body {
 	background-color: #f8fafc;
 }
@@ -119,14 +132,19 @@ body {
 	font-size: 20px;
 }
 .gender-tab {
-	width: 90%;
+	width: 100%;
 	margin-top: 60px;
 	border: 1px solid #6b7280;
+}
+.tab-space {
+	width:100%;
+	overflow-x: scroll;
 }
 .instructor-tab{
     width: 100%;
     margin-top: 60px;
     border: 1px solid #6b7280;
+	overflow-x: hidden;
 }
 
 .roll1 {
@@ -316,5 +334,17 @@ body {
 		margin-top: 90px;
 		padding: 10px;
 		border: 1px solid #6b7280;
+	}
+	.instructor-tab{
+	    width: fit-content;
+	    margin-top: 60px;
+	    border: 1px solid #6b7280;
+		overflow-x: hidden;
+    }
+	.instructor-tab > thead > tr {
+		overflow: hidden;
+	}
+	.instructor-tab > tbody > tr {
+		overflow: hidden;
 	}
 }
