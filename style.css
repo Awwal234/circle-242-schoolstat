@@ -184,6 +184,14 @@ body {
 .drop-menu {
 	display: none;
 }
+#sort {
+	cursor: pointer;
+}
+.in-tab{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
 
 @media only screen and (max-width: 1024px) {
 	.track1 {
