@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>School stats | Comingsoon Page</title>
+</head>
+
+<body>
+	<div class="space-for-comingsoon">
+		<div class="coming-text">
+			<center>ComingSoon</center>
+			<center>
+				<button id="home">Back to HomePage</button>
+			</center>
+		</div>
+	</div>
+
+	<style>
+		.space-for-comingsoon {
+			margin: auto;
+			margin-top: 10%;
+			width: 80%;
+		}
+
+		.coming-text {
+			color: #000;
+			font-size: 60px;
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+
+		button {
+			width: fit-content;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+			background: #000;
+			color: #fff;
+			font-family: sans-serif;
+			border: 0px;
+			margin-top: 10px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		button:hover {
+			box-shadow: 2px 3px 1px 1px #ccc;
+			cursor: pointer;
+		}
+
+		@media only screen and (max-width:767px) {
+			.coming-text {
+				color: #000;
+				font-size: 30px;
+				font-family: sans-serif;
+				font-weight: bold;
+			}
+
+			.space-for-comingsoon {
+				margin: auto;
+				margin-top: 50%;
+				width: 80%;
+			}
+		}
+	</style>
+
+	<script>
+		var home
+		home = document.getElementById("home")
+		home.addEventListener("click", () => {
+			window.location.href = "index.html"
+		})
+	</script>
+</body>
+
+</html>
