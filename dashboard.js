@@ -36,6 +36,7 @@ sort.addEventListener("click", () => {
 
 	if (sort.style.display = "none") {
 		sort2.style.display = "flex";
+		sort2.style.cursor = "pointer";
 
 		sort2.addEventListener("click", () => {
 			t1.innerHTML = "Tabitha Kavyu";

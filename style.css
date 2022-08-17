@@ -146,6 +146,9 @@ body {
     border: 1px solid #6b7280;
 	overflow-x: hidden;
 }
+.instructor-tab > thead {
+	align-items: center;
+}
 
 .roll1 {
 	text-align: center;
@@ -173,6 +176,7 @@ body {
 	padding: 8px;
 	border-bottom: 1px solid #6b7280;
 	height: fit-content;
+	text-align: center;
 }
 .roll2 > td {
 	padding: 8px;
@@ -188,7 +192,6 @@ body {
 	cursor: pointer;
 }
 .in-tab{
-	display: flex;
 	align-items: center;
 	text-align: center;
 }
